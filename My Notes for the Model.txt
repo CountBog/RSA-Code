@@ -1,0 +1,10 @@
+P(I|W) = P(W|I)P(I)
+
+Notes on RSA scope model:
+I need to figure out how noah did the code for the scope model in his paper.
+
+Right now the problem is the following:  in order to give 'none' any weight in the final posterior distrubution, the 'literal listener' has to assume that 'none' is true in some contexts where it is false.  This intuitively would represent some bias for the 'none' interpretation. When considering the distribution over world states I would be saying, 'well the speaker said 'none' but maybe he was mistaken and there was actually 'some''.  So now we have a literal listener playing this game, and then when the distribution over interpretations is computed, the listener would intuitively be like, "well 1 horse jumped over the fence and the speaker said 'none,' so he must be false."  This is intuitively where we would want to be at, because this is presumably where the kid is at.  The problem with this model is that no QUD is being represented.  In order to get this outcome we are assuming violation of the principle of charity.  So this model amounts to, "a listener will assume a speaker violted the principle of charity x often."  It literally makes no sense.  What I want is a hypothesis space of QUDs.  With the current model, there is no way we could capture Gualmini's study difference with the troll losing or delivering pizza.  I need to review all the literature, and make some graph about the acceptance rates given certain factors of the experiments.  
+
+
+TVJT Results
+Musolino 1998:  
