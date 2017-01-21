@@ -24,6 +24,9 @@ qstate = [];
                     for a = 2:w
                         qstate(a,b,c,d) = sum(LL(2:w,b,c,d));
                     end
+%                 elseif strcmpi(QUDs(d), 'any?') == 1
+%                     qstate(w,b,c,d) = LL(w,b,c,d);
+%                     for a = 
                 end
             end
         end
